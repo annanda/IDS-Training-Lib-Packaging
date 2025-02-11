@@ -30,5 +30,8 @@ class TestMathFunctions(unittest.TestCase):
             '"private_but_not_really_multiplication" should not be in the top-level API after import *'
         )
 
+    def not_really_doing_any_test(self):
+        self.assertTrue(False)
+
 if __name__ == "__main__":
     unittest.main()
