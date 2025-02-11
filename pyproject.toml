@@ -13,7 +13,6 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "coverage",  # Testing tool
     "build",     # For building the package
     "twine"      # For uploading to PyPI
 ]
