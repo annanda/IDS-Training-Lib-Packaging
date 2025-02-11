@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_multiplication_lib"
+version = "0.1.2"
+description = "Behold the power of multiplication!"
+authors = [{ name = "Felipe Arruda", email = "felipe.arrudapontes@maastrichtuniversity.nl" }]
+dependencies = [
+    "loguru>=0.5.3"  # Simplified logging library, just to have some dependencies
+]
+
+[project.optional-dependencies]
+dev = [
+    "coverage",  # Testing tool
+    "build",     # For building the package
+    "twine"      # For uploading to PyPI
+]
