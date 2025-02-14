@@ -4,17 +4,17 @@ Example of python packaging.
 # Installing
 ## From Private PyPi (playground)
 run:
-`pip install --extra-index-url https://arruda.pythonanywhere.com/simple my_multiplication_lib`
+`pip install --extra-index-url https://arruda.pythonanywhere.com/simple super_kawaii_multiplication_lib`
 
 ## From Official PyPi
 run:
-`pip install my_multiplication_lib`
+`pip install super_kawaii_multiplication_lib`
 **ps**: (check name of your lib, needs to be unique in the official pypi)
 
 ## Using the lib:
 
 ```python
-from my_multiplication_lib import *
+from super_kawaii_multiplication_lib import *
 
 print(fancy_multiplication(4, 5, 6))
 ```

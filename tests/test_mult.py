@@ -1,8 +1,8 @@
 import unittest
-from my_multiplication_lib import *  # * only to test our api is properly defined
+from super_kawaii_multiplication_lib import *  # * only to test our api is properly defined
 
 class TestMathFunctions(unittest.TestCase):
-    """Tests for my_multiplication_lib package."""
+    """Tests for super_kawaii_multiplication_lib package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
@@ -21,7 +21,7 @@ class TestMathFunctions(unittest.TestCase):
     def test_shouldnt_provide_private_method_in_api(self):
         # Assert that importing _private_multiplication raises an error
         with self.assertRaises(ImportError):
-            from my_multiplication_lib import _private_multiplication
+            from super_kawaii_multiplication_lib import _private_multiplication
 
     def test_shouldnt_provide_private_but_not_really_method_in_api(self):
         # Check that `private_but_not_really_multiplication` is NOT in the current globals (namespace)
